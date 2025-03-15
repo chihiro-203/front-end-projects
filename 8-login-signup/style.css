@@ -23,7 +23,7 @@ body{
 .form-container{
     width: 800px;
     max-width: 100%;
-    background-color: #120249;
+    background-color: #493D9E;
     border-radius: 20px;
     box-shadow: 0px 2px 3px #190254,
                 0px -2px 3px #190254,
@@ -35,7 +35,7 @@ body{
 }
 
 .form-container h3{    
-    color: #b9c4e8;
+    color: #DAD2FF;
     font-weight: 700;
     font-size: 25px;
     line-height: 35px;
@@ -43,7 +43,7 @@ body{
 }
 
 .form-container form{
-    background-color: #120249;
+    background-color: #493D9E;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,26 +67,26 @@ body{
 
 .box input{
     background-color: transparent;
-    color: #b9c4e8;
+    color: #DAD2FF;
     width: 100%;
     height: 100%;
     font-size: 14px;
     border: none;
     outline: none;
-    border-bottom: 2px solid #463999;
+    border-bottom: 2px solid #B2A5FF;
     padding: 10px 40px;
 }
 
 .box input::placeholder{
-    color: #463999;
+    color: #DAD2FF;
 }
 
 .box input:focus{
-    border-color: #b9c4e8;
+    border-color: #DAD2FF;
 }
 
 .box input:focus::placeholder{
-    color: #998bec;
+    color: #B2A5FF;
 }
 
 .box i{
@@ -100,14 +100,17 @@ body{
 .box i.user{
     transition: all 0.5s ease;
     left: 0;
-    color: #463990;
+    color: #B2A5FF;
 }
 
 .box i.pw-hid{
     right: 0;
-    color: #463990;
+    color: #B2A5FF;
     font-size: 18px;
     cursor: pointer;
+}
+.box i:hover.pw-hid{
+    color: #DAD2FF;
 }
 
 .box input:focus ~ i.password,
@@ -116,11 +119,11 @@ body{
 .box input:hover ~ i.password,
 .box input:hover ~ i.email,
 .box input:hover ~ i.user{
-    color: #b9c4e8;
+    color: #DAD2FF;
 }
 
 .forget{
-    color: #b9c4e8;
+    color: #B2A5FF;
     margin-bottom: 10px;
     cursor: pointer;
     outline: none;
@@ -134,40 +137,29 @@ body{
 .submit{
     font-size: 30px;
     font-weight: 600;
-    background-color: #5966af;
+    background-color: #B2A5FF;
     width: 54px;
     height: 54px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #010733;
+    color: #493D9E;
     transition: all 0.1s ease;
-    border: 2px solid #5966af;
+    border: 2px solid #B2A5FF;
     margin-top: 10px;
     cursor: pointer;
 }
 
 .submit:hover{
-    background-color: #6573c7;
-    border: 2px solid #6573c7;
+    background-color: #DAD2FF;
+    border: 2px solid #DAD2FF;
 }
 
 .submit:active{
-    border: 2px solid #010733;
-    background-color: #6573c7;
+    border: 2px solid #493D9E;
+    background-color: #B2A5FF;
 }
-
-/* button.hidden{
-    background-color: transparent;
-    border: 2px solid transparent;
-    border: 2px solid #010733;
-} 
-
-button.hidden:hover,
-button.hidden:active{
-    border: 2px solid transparent;
-} */
 
 .signup{
     left: 0;
@@ -223,7 +215,7 @@ button.hidden:active{
 
 .home{
     background-color: #344290;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
+    background: linear-gradient(to right, #DAD2FF, #B2A5FF);
     height: 100%;
     position: relative;
     left: -100%;
@@ -236,13 +228,13 @@ button.hidden:active{
 .home h1{
     margin: 30px 0;   
     font-size: 40px;
-    color: #120249;
+    color: #493D9E;
     font-weight: 800;
-    text-shadow: 1px 1px 2px #463999, 0 0 25px #463999, 0 0 5px #463999;
+    text-shadow: 1px 1px 2px #B2A5FF, 0 0 25px #B2A5FF, 0 0 5px #B2A5FF;
 }
 
 .home p{
-    color: #010733;
+    color: #493D9E;
 }
 
 .home button{
@@ -251,8 +243,8 @@ button.hidden:active{
     background-color: transparent;
     font-size: 15px;
     font-weight: 500;
-    border: 3px solid #010733;
-    color: #010733;
+    border: 3px solid #493D9E;
+    color: #493D9E;
     border-radius: 5px;
     width: 80px;
     line-height: 30px;
@@ -262,8 +254,8 @@ button.hidden:active{
 
 .home button:hover,
 .home button:active{
-    background-color: #010733;
-    color: #344290;
+    background-color: #493D9E;
+    color: #DAD2FF;
 }
 
 .form-container.active .home{
@@ -301,7 +293,3 @@ button.hidden:active{
 .form-container.active .right{
     transform: translateX(200%);
 }
-
-
-
-/* - 1A0000 */

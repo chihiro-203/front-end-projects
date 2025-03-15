@@ -1,74 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet"  href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
     <title>Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="form-container" id="form-container">
-        <!-- login -->
-        <div class="login form-wrapper">
-            <form>
-                <h3>Log In</h3>
-                <div class="box">
-                    <input type="email" placeholder="Your E-mail" required>
-                    <i class='bx bxs-user-circle email'></i>
-                </div>
-                <div class="box">
-                    <input type="password" placeholder="Your Password" required>
-                    <i class='bx bxs-lock-alt password'></i>
-                    <i class="uil uil-eye-slash pw-hid"></i>
-                </div>
-                <button class="forget">Forget your password?</button>
-                <button class="submit"><i class="fa-solid fa-paw"></i></button>
-            </form>
-        </div>
-        <!-- signup  -->
-        <div class="signup form-wrapper">
-            <form>
-                <h3>Create Account</h3>
-                <div class="box">
-                    <input type="text" placeholder="Your Name">
-                    <i class='bx bxs-user user'></i>
-                </div>                   
-                <div class="box">
-                    <input type="email" placeholder="Your E-mail">
-                    <i class='bx bxs-envelope email'></i>
-                </div> 
-                <div class="box">
-                    <input type="password" placeholder="Create Password" required>
-                    <i class='bx bxs-lock-alt password' ></i>
-                    <i class="uil uil-eye-slash pw-hid"></i>
-                </div>
-                <div class="box">
-                    <input type="password" placeholder="Confirm Password" required>
-                    <i class='bx bxs-lock-alt password'></i>
-                    <i class="uil uil-eye-slash pw-hid"></i>
-                </div>
-                <button class="submit"><i class="fa-solid fa-paw"></i></button>
-            </form>
-        </div>
+      <!-- login -->
+      <div class="login form-wrapper">
+        <form>
+          <h3>Log In</h3>
+          <div class="box">
+            <input type="email" placeholder="Your E-mail" required />
+            <i class="bx bxs-user-circle email"></i>
+          </div>
+          <div class="box">
+            <input type="password" placeholder="Your Password" required />
+            <i class="bx bxs-lock-alt password"></i>
+            <i class="uil uil-eye-slash pw-hid"></i>
+          </div>
+          <button class="forget">Forget your password?</button>
+          <button class="submit"><i class="fa-solid fa-paw"></i></button>
+        </form>
+      </div>
+      <!-- signup  -->
+      <div class="signup form-wrapper">
+        <form>
+          <h3>Create Account</h3>
+          <div class="box">
+            <input type="text" placeholder="Your Name" required/>
+            <i class="bx bxs-user user"></i>
+          </div>
+          <div class="box">
+            <input type="email" placeholder="Your E-mail" required/>
+            <i class="bx bxs-envelope email"></i>
+          </div>
+          <div class="box">
+            <input type="password" placeholder="Create Password" required />
+            <i class="bx bxs-lock-alt password"></i>
+            <i class="uil uil-eye-slash pw-hid"></i>
+          </div>
+          <div class="box">
+            <input type="password" placeholder="Confirm Password" required />
+            <i class="bx bxs-lock-alt password"></i>
+            <i class="uil uil-eye-slash pw-hid"></i>
+          </div>
+          <button class="submit"><i class="fa-solid fa-paw"></i></button>
+        </form>
+      </div>
 
-        <div class="home-wrapper">
-            <div class="home">
-                <div class="signup-home left home-panel">
-                    <h1>Hello, Friend!</h1>
-                    <p>Don't have an account?</p>
-                    <button class="home-btn" id="login">Sign Up</button>
-                </div>
-                <div class="login-home right home-panel">
-                    <h1>Welcome Back!</h1>
-                    <p>Already have an account?</p>
-                    <button class="home-btn" id="signup">Log In</button>
-                </div>
-            </div>
+      <div class="home-wrapper">
+        <div class="home">
+          <div class="signup-home left home-panel">
+            <h1>Hello, Friend!</h1>
+            <p>Don't have an account?</p>
+            <button class="home-btn" id="login">Sign Up</button>
+          </div>
+          <div class="login-home right home-panel">
+            <h1>Welcome Back!</h1>
+            <p>Already have an account?</p>
+            <button class="home-btn" id="signup">Log In</button>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
