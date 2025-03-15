@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("https://chihiro-203.github.io/front-end-projects/projects.json")
+  fetch("https://chihiro-203.github.io/front-end-projects/data/projects.json")
     .then((response) => response.json())
     .then((data) => {
       const projects = document.getElementById("projects");
