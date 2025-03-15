@@ -20,10 +20,13 @@ h1 {
 }
 .inspired {
   color: #fff2f2;
-  opacity: 0.6;
+}
+.inspired a{
+  color: #6877bb;
+  opacity: 0.8;
 }
 .inspired a:hover {
-  opacity: 0.8;
+  color: #7886c7;
 }
 .card {
   max-height: 400px;
