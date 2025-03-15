@@ -1,8 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const projects = document.getElementById("projects");
+  const loading = document.getElementById("loading");
+
+  loading.style.display = "block";
+  projects.style.display = "none";
+
   fetch("https://chihiro-203.github.io/front-end-projects/data/projects.json")
     .then((response) => response.json())
     .then((data) => {
-      const projects = document.getElementById("projects");
       projects.innerHTML = "";
 
       data.forEach((project) => {
@@ -25,6 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         projects.appendChild(card);
       });
+
+      loading.style.display = "none";
+      projects.style.display = "flex";
     })
     .catch((error) => console.error("Error loading projects:", error));
 });

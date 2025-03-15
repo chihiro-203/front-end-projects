@@ -28,6 +28,15 @@ h1 {
 .inspired a:hover {
   color: #7886c7;
 }
+
+.loading{
+  height: 100vh;
+  color: #fff2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .card {
   max-height: 400px;
   height: 100%;
