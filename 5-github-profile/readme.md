@@ -12,5 +12,5 @@
     - If a new GitHub username is entered, the card temporarily shows the waiting cat image, but if the input is cleared without pressing "Enter," the previous user's information reappears.
     
 3. **Purpose:** 
-    - To provide an interactive and visually appealing interface for retrieving and displaying GitHub user information..
+    - To provide an interactive and visually appealing interface for retrieving and displaying GitHub user information.
     - To enhance user experience with dynamic content updates and playful design elements that maintain engagement and provide clear feedback based on user actions.

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html,
+body {
+  height: fit-content;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(#2d336b, #7886c7);
+  overflow-x: hidden;
+  /* background: #2d336b; */
+}
+
+main {
+  flex-grow: 1;
+}
+h1 {
+  color: #fff2f2;
+}
+.inspired {
+  color: #fff2f2;
+  opacity: 0.6;
+}
+.inspired a:hover {
+  opacity: 0.8;
+}
+.card {
+  max-height: 400px;
+  height: 100%;
+  border: 2px solid #2d336b;
+  color: #2d336b;
+}
+.card:hover {
+  border: 2px solid #7886c7;
+}
+.card-title {
+  color: #2d336b;
+  font-weight: 600;
+}
+.card:hover .card-title {
+  text-decoration: underline;
+}
+.card-text {
+  font-size: 0.8rem;
+}
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn {
+  background: #7886c7;
+  border: 1px solid #7886c7;
+}
+.btn:hover {
+  background: #6877bb;
+  border: 1px solid #6877bb;
+}
+.btn:active {
+    background: #5462a2;
+    border: 1px solid #5462a2;
+  }
+
+.footer {
+  background-color: #a9b5df;
+  color: #2d336b;
+  padding: 10px 0;
+  text-align: center;
+}
+.social-icons a {
+  color: #6877bb;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #5462a2;
+}
+
+#moveToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background: #7886c7;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#moveToTop:hover {
+  background: #6877bb;
+}
+#moveToTop:active{
+    background: #5462a2;
+}

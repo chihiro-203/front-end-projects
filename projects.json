@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Expanding Cards",
+        "description": "Developed an interactive card interface featuring five distinct cat images.",
+        "img": "https://chihiro-203.github.io/front-end-projects/1-expanding-cards/resources/demo.gif",
+        "source": "https://github.com/chihiro-203/front-end-projects/tree/main/1-expanding-cards",
+        "demo": "https://chihiro-203.github.io/front-end-projects/1-expanding-cards"
+    },
+    {
+        "title": "Progress Steps",
+        "description": "A multi-step progress indicator with four steps, each representing a different cat emotion.",
+        "img": "https://chihiro-203.github.io/front-end-projects/2-progress-steps/resources/demo.gif",
+        "source": "https://github.com/chihiro-203/front-end-projects/tree/main/2-progress-steps",
+        "demo": "https://chihiro-203.github.io/front-end-projects/2-progress-steps"
+    },
+    {
+        "title": "Background",
+        "description": "A  background featuring a dynamic design with 10 cat GIFs that drift upwards and spin at varying time delays and durations.",
+        "img": "https://chihiro-203.github.io/front-end-projects/3-background/resources/demo.gif",
+        "source": "https://github.com/chihiro-203/front-end-projects/tree/main/3-background",
+        "demo": "https://chihiro-203.github.io/front-end-projects/3-background"
+    },
+    {
+        "title": "Note App",
+        "description": "A note-taking interface that allows easy management of notes with intuitive controls for adding, modifying, and deleting notes.",
+        "img": "https://chihiro-203.github.io/front-end-projects/4-note-app/resources/demo.gif",
+        "source": "https://github.com/chihiro-203/front-end-projects/tree/main/4-note-app",
+        "demo": "https://chihiro-203.github.io/front-end-projects/4-note-app"
+    },
+    {
+        "title": "Github Profile",
+        "description": "An interactive and visually appealing interface for retrieving and displaying GitHub user information.",
+        "img": "https://chihiro-203.github.io/front-end-projects/5-github-profile/resources/demo.gif",
+        "source": "https://github.com/chihiro-203/front-end-projects/tree/main/5-github-profile",
+        "demo": "https://chihiro-203.github.io/front-end-projects/5-github-profile"
+    },
+    {
+        "title": "Feedback Cat",
+        "description": "A feedback interface that allows users to express their satisfaction level with ease and provides personalized responses based on their input.",
+        "img": "https://chihiro-203.github.io/front-end-projects/6-feedback-cat/resources/demo.gif",
+        "source": "https://github.com/chihiro-203/front-end-projects/tree/main/6-feedback-cat",
+        "demo": "https://chihiro-203.github.io/front-end-projects/6-feedback-cat"
+    },
+    {
+        "title": "Theme Clock",
+        "description": "A clock interface that combines analog and digital elements.",
+        "img": "https://chihiro-203.github.io/front-end-projects/7-theme-clock/resources/demo.gif",
+        "source": "https://github.com/chihiro-203/front-end-projects/tree/main/7-theme-clock",
+        "demo": "https://chihiro-203.github.io/front-end-projects/7-theme-clock"
+    },
+    {
+        "title": "Login/Signup",
+        "description": "An user interface for both account creation and login",
+        "img": "https://chihiro-203.github.io/front-end-projects/8-login-signup/resources/demo.gif",
+        "source": "https://github.com/chihiro-203/front-end-projects/tree/main/8-login-signup",
+        "demo": "https://chihiro-203.github.io/front-end-projects/8-login-signup"
+    }
+]
