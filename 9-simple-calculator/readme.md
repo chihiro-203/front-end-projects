@@ -15,3 +15,5 @@
     - To provide users with a simple yet efficient calculator for quick arithmetic calculations.
     - To ensure smooth equation handling and real-time updates.
     - To demonstrate dynamic UI updates where the equation and result are displayed separately for clarity.
+
+4. **Link Demo**: [simple-calculator](https://chihiro-203.github.io/front-end-projects/9-simple-calculator/)

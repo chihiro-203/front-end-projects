@@ -13,3 +13,5 @@
 3. **Purpose:** 
     - To provide a visually distinct and interactive clock interface that combines analog and digital elements.
     - To enhance user experience by offering customizable themes, allowing users to switch between dark and light modes based on their preference.
+
+4. **Link Demo**: [theme-clock](https://chihiro-203.github.io/front-end-projects/7-theme-clock/)
