@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+
+* {
+  font-family: "Tektur", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #6188b8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #445e93;
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  width: 240px;
+}
+
+.icon{
+  color: #445e93;
+}
+
+.calculation {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 10px;
+  background: #f7fbfd;
+}
+
+.calculation input {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.equation {
+  font-size: 20px;
+}
+.result {
+  font-size: 30px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 10px;
+}
+
+.btn {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50%;
+  outline: none;
+}
+
+.num {
+  background: #f7fbfd;
+  color: #445e93;
+  font-weight: 600;
+}
+.num:hover {
+  background: #f7fbfddc;
+}
+.num:active {
+  background: #f7fbfdac;
+}
+
+.sign {
+  background: #6188b8;
+  color: #f7fbfd;
+  font-weight: 600;
+}
+.sign:hover {
+  background: #6188b8dc;
+}
+.sign:active {
+  background: #6188b8ac;
+}
+
+.equal {
+  background: #445e93;
+  color: #f7fbfd;
+  font-weight: 600;
+}
+.equal:hover {
+  background: #445e93dc;
+}
+.equal:active {
+  background: #445e93ac;
+}
+
+.delete {
+  background: #a2495b;
+  color: #f7fbfd;
+  font-weight: 600;
+}
+.delete:hover {
+  background: #a2495bdc;
+}
+.delete:active {
+  background: #a2495bac;
+}
+/* #445e93 #6188b8 #7eb2dd #bfd9ee #f7fbfd */

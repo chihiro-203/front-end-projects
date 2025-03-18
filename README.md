@@ -17,4 +17,5 @@ Web of this project: [Frontend Projects](https://chihiro-203.github.io/front-end
 - [Feedback Cat](https://github.com/nguyenthiyenchi/50-projects-50-days/blob/main/6-feedback-cat/readme.md)
 - [Theme Clock](https://github.com/nguyenthiyenchi/50-projects-50-days/blob/main/7-theme-clock/readme.md)
 - [Login/Signup](https://github.com/nguyenthiyenchi/50-projects-50-days/blob/main/8-login-signup/readme.md)
+- [Simple Calculator](https://github.com/nguyenthiyenchi/50-projects-50-days/blob/main/9-simple-calculator/readme.md)
 
