@@ -43,6 +43,6 @@ body{
 
 }
 
-.about-container{
+.about-container,.projects-container,.contact-container{
     display: none;
 }
