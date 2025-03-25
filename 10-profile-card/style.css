@@ -84,6 +84,39 @@ nav ul li.active{
     font-weight: 600;
 }
 
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #1d528a;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    overflow-y: auto;
+}
+
+.about-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: auto 10px;
+}
+
 /* .about-container,.projects-container,.contact-container{
     display: none;
 } */
