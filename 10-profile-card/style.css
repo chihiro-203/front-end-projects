@@ -23,7 +23,7 @@ body {
 .container {
   position: relative;
   overflow: hidden;
-  border: 3px solid #fbfbfb;
+  border: 3px solid #dfedfa;
   border-radius: 15px;
   height: 560px;
   width: 360px;
@@ -55,7 +55,7 @@ nav {
 nav ul {
   display: flex;
   list-style-type: none;
-  background: #ecf2f8;
+  background: #dfedfa;
   margin: 0;
   padding: 0;
   height: 60px;
@@ -85,38 +85,16 @@ nav ul li.active {
   border-top: 5px solid #1d528a;
 }
 
-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px solid #000;
-  box-shadow: 2px 2px 1px 2.1px #3674b5;
-}
-
 .box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px 0;
-  overflow-y: auto;
-}
-
-.about-header {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
 }
 
 .box h2 {
   margin: 5px 0;
   color: #124174;
-}
-
-.about-header h5 {
-  margin: 0;
-  color: #3674b5;
-  font-weight: 500;
 }
 
 .content {
@@ -130,12 +108,34 @@ img {
   color: #124174;
 }
 
-.content p{
-    color: #124174;
-    font-size: 15px;
-    margin: 10px 0;
+.content p {
+  color: #124174;
+  font-size: 15px;
+  margin: 10px 0;
 }
 
+.about-header h5 {
+  margin: 0;
+  color: #3674b5;
+  font-weight: 500;
+}
+
+.about-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 1px 2.1px #3674b5;
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+/* About Part */
 .social {
   display: flex;
   margin: 10px 20px 0 20px;
@@ -158,6 +158,50 @@ img {
 
 .social a:hover {
   background: #1d528a;
+}
+
+/* Projects Part */
+.projects {
+  margin: 10px 0;
+  overflow-y: auto;
+  height: 400px;
+  padding: 0 5px;
+}
+.projects::-webkit-scrollbar {
+  width: 4px;
+}
+.projects::-webkit-scrollbar-track {
+  background: #dfedfa;
+  border-radius: 10px;
+}
+.projects::-webkit-scrollbar-thumb {
+  background: #3674b5;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.projects::-webkit-scrollbar-thumb:hover {
+  background: #1d528a; 
+}
+
+.project {
+  display: flex;
+  text-align: center;
+  justify-content: start;
+  flex-direction: row;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project img{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.project p{
+    padding-left: 10px;
 }
 
 /* .about-container,.projects-container,.contact-container{
