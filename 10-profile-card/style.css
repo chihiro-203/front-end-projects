@@ -2,12 +2,6 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  /* padding: auto;
-  margin: auto;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: none;
-  outline: none; */
 }
 
 body {
@@ -42,6 +36,12 @@ body {
 
 .container .box.show {
   opacity: 1;
+}
+
+a {
+  pointer-events: auto;
+  z-index: 2;
+  position: relative;
 }
 
 nav {
@@ -203,6 +203,11 @@ nav ul li.active {
 .project p{
     padding-left: 10px;
 }
+
+.project div {
+  pointer-events: none;
+}
+
 
 /* .about-container,.projects-container,.contact-container{
     display: none;
