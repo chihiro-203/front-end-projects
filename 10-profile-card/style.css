@@ -190,10 +190,16 @@ nav ul li.active {
   display: flex;
   text-align: center;
   justify-content: start;
+  align-items: center;
   flex-direction: row;
   border-radius: 10px;
   margin-bottom: 20px;
+  border: 2px solid #3673b581;
+  padding: 10px;
 }
+
+.project:hover{
+  border: 2px solid #3674b5;}
 
 .project img{
     display: flex;
@@ -203,13 +209,28 @@ nav ul li.active {
 }
 
 .project p{
-    padding-left: 10px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
 }
 
-.project div {
-  pointer-events: none;
+.project-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dfedfa;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  color: #3674b5;
 }
 
+.project a{
+  display: flex;
+  font-size: 12px;
+  padding-left: 20px;
+}
 
 /* .about-container,.projects-container,.contact-container{
     display: none;
