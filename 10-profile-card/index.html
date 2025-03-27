@@ -10,11 +10,12 @@
   <link rel="icon" href="https://chihiro-203.github.io/front-end-projects/data/chihiro.png" type="image/png type" />
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 
 <body>
   <div class="container">
-    <div class="about-container box">
+    <div class="about-container box show">
       <div class="about-header">
         <img src="https://chihiro-203.github.io/front-end-projects/10-profile-card/resources/chi.JPG" alt="Avatar" />
         <h2 class="name">Chi Nguyen</h2>
@@ -35,12 +36,12 @@
         <a href="https://github.com/chihiro-203" target="_blank"><i class="fa-brands fa-github"></i></i></a>
       </div>
     </div>
-    <div class="projects-container box show">
+    <div class="projects-container box">
       <div class="projects-content content">
         <h4>PROJECTS</h4>
         <div class="projects">
           <div class="portfolio project">
-            <div class="project-icon"><i class='bx bxs-star' ></i></div>
+            <div class="project-icon"><i class='bx bxs-star'></i></div>
             <div>
               <p>Portfolio</p>
               <a href="https://github.com/chihiro-203/chihiro-203.github.io" target="_blank">github</a>
@@ -54,7 +55,7 @@
             </div>
           </div>
           <div class="meowtique project">
-            <div class="project-icon"><i class='bx bxs-store' ></i></div>
+            <div class="project-icon"><i class='bx bxs-store'></i></div>
             <div>
               <p>The Meowtique</p>
               <a href="https://github.com/chihiro-203/the-meowtique" target="_blank">github</a>
@@ -75,7 +76,7 @@
             </div>
           </div>
           <div class="coffee project">
-            <div class="project-icon"><i class='bx bxs-coffee' ></i></div>
+            <div class="project-icon"><i class='bx bxs-coffee'></i></div>
             <div>
               <p>Meow Coffee House</p>
               <a href="https://github.com/meowie2k3/Meo-coffee-house" target="_blank">github</a>
@@ -85,26 +86,37 @@
       </div>
     </div>
     <div class="contact-container box">
-      <h4>CONTACT ME</h4>
+      <div class="contact-content content">
+        <h4>CONTACT ME</h4>
+        <div class="contacts">
+          <form id="c-contact-form">
+            <div class="input">
+              <label>Your Name:</label>
+              <input type="text" class="name" name="name" placeholder="Your Name *" />
+            </div>
+            <div class="input">
+              <label>Your Email:</label>
+              <input type="email" class="email" name="email" placeholder="Your Email *" />
+            </div>
+            <div class="input">
+              <label>Your Subject:</label>
+              <input type="text" class="subject" name="subject" placeholder="Your Subject *" />
+            </div>
+            <div class="input">
+              <label>Your Message:</label>
+              <textarea class="message" name="message" placeholder="Your Message *"></textarea>
+            </div>
+            <div class="input-group send-message">
+              <button class="submit-btn" name="submit" type="submit">
+                Send Message
+              </button>
+              <div class="contact-form-alert"></div>
+            </div>
+          </form>
+        </div>
+        
+      </div>
       <!-- <div><span class="contact-title">Contact Me</span></div> -->
-      <div>
-        <label>Your Name:</label>
-        <input type="text" class="name" placeholder="Your Name *">
-      </div>
-      <div>
-        <label>Your Email:</label>
-        <input type="email" class="email" placeholder="Your Email *">
-      </div>
-      <div>
-        <label>Your Subject:</label>
-        <input type="text" class="subject" placeholder="Your Subject *">
-      </div>
-      <div>
-        <label>Your Message:</label>
-        <!-- <textarea class="message" placeholder="Your Message *"> -->
-        <textarea class="message" placeholder="Your Message *"></textarea>
-
-      </div>
     </div>
     <nav class="nav-btn">
       <ul>

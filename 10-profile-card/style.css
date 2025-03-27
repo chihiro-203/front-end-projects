@@ -36,7 +36,7 @@ body {
 }
 
 .container .box.show {
-  display: flex;
+  display: block;
   opacity: 1;
 }
 
@@ -183,7 +183,7 @@ nav ul li.active {
 }
 
 .projects::-webkit-scrollbar-thumb:hover {
-  background: #1d528a; 
+  background: #1d528a;
 }
 
 .project {
@@ -195,26 +195,21 @@ nav ul li.active {
   border-radius: 10px;
   margin-bottom: 20px;
   border: 2px solid #3673b581;
-  padding: 10px;
+  padding: 10px 20px;
 }
 
-.project:hover{
-  border: 2px solid #3674b5;}
-
-.project img{
-    display: flex;
-    align-items: center;
-    width: 150px;
-    border-radius: 10px;
+.project:hover {
+  border: 2px solid #3674b5;
 }
 
-.project p{
-    padding-left: 20px;
-    font-weight: 600;
-    font-size: 14px;
+.project p {
+  /* padding-left: 30px; */
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 5px 30px;
 }
 
-.project-icon{
+.project-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,10 +221,85 @@ nav ul li.active {
   color: #3674b5;
 }
 
-.project a{
+.project a {
   display: flex;
   font-size: 12px;
-  padding-left: 20px;
+  margin-left: 30px;
+  padding: 1px 3px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: fit-content;
+  background: #4585ca;
+  color: #dfedfa;
+}
+.project a:hover {
+  background: #3877bb;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input label {
+  color: #1d528a;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.input input,
+.input textarea {
+  border: 1px solid #3674b5;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #2c66a3;
+}
+
+.input input::placeholder,
+.input textarea::placeholder {
+  color: #84a7c9;
+}
+
+.input textarea {
+  height: 50px;
+  resize: none;
+}
+
+.submit-btn {
+  display: flex;
+  font-size: 14px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: fit-content;
+  background: #4585ca;
+  color: #dfedfa;
+  outline: none;
+  border: none;
+}
+
+.submit-btn:hover {
+  background: #3877bb;
+}
+.submit-btn:active {
+  background: #2c66a3;
+}
+
+.error{
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  color: #ca455b;
+}
+
+.success{
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  color: #45ca71;
 }
 
 /* .about-container,.projects-container,.contact-container{
